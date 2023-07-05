@@ -1,0 +1,13 @@
+type TipoAcao {
+	codtipoacao: ID!
+	descricao: String!
+	codTipoAcao: Int
+	tipo: Int
+}
+
+# Root
+type Query {
+	findAllTipoAcaoQL: [TipoAcao]!
+	countTipoAcaoQL: Int
+
+}
